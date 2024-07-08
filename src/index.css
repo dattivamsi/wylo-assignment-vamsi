@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color:transparent;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.imageDetails{
+  height: 10rem;
+  width: 15rem;
+}
+
+.post-item{
+  box-shadow: 1px -14px 20px -20px rgba(0, 0, 0, 0.45), 25px 0px 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0px 20px -20px rgba(0, 0, 0, 0.45);
+  padding: 1rem;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.post-item h2{
+  text-align: right;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.posts-display{
+  display: flex;
+}
+
+.antd-button{
+  height: 2rem;
+  width: 5rem;
+  border: none;
+}
+.main-head{
+  text-align: center;
+}
+.sup{
+  color: red;
+}
+.input-form{
+  margin: 1rem 0;
+}
+.label-form{
+  margin-bottom: 0.4rem ;
+}
+.button-post{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.button-post button{
+  width: max-content;
+}
+.form-input{
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid #00000060;
+}
+.no-posts{
+  width: 95vw;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.no-posts p{
+  font-size: 1.4rem;
+  color: #00000060;
+  font-family: "roboto";
+  font-weight: bold;
+}
+.posts-display{
+  display: flex;
+  flex-wrap: wrap;
+}
