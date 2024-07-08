@@ -28,7 +28,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className='main-head'>Post App</h1>
+      <h1 className='main-head'>Post Your Info</h1>
       <CreatePost
         onSubmit={handleCreate}
         editingPost={editingPost}
