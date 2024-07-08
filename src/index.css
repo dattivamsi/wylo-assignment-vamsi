@@ -86,6 +86,9 @@ button:focus-visible {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 1rem;
+  border: 1px solid #00000060;
+  border-radius: 1rem;
 }
 .no-posts p{
   font-size: 1.4rem;
@@ -96,4 +99,6 @@ button:focus-visible {
 .posts-display{
   display: flex;
   flex-wrap: wrap;
+  margin-top: 1rem;
+  border-radius: 1rem;
 }
